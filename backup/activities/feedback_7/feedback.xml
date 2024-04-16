@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1" moduleid="7" modulename="feedback" contextid="23">
+  <feedback id="1">
+    <name>Опрос: начальные компетенции</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <anonymous>2</anonymous>
+    <email_notification>0</email_notification>
+    <multiple_submit>0</multiple_submit>
+    <autonumbering>0</autonumbering>
+    <site_after_submit></site_after_submit>
+    <page_after_submit></page_after_submit>
+    <page_after_submitformat>1</page_after_submitformat>
+    <publish_stats>0</publish_stats>
+    <timeopen>0</timeopen>
+    <timeclose>0</timeclose>
+    <timemodified>1706344412</timemodified>
+    <completionsubmit>0</completionsubmit>
+    <items>
+      <item id="1">
+        <template>0</template>
+        <name>Имеете ли Вы опыт в .... ?</name>
+        <label></label>
+        <presentation>r&gt;&gt;&gt;&gt;&gt;Изучении программирования
+|Написании неучебных программ
+|В области программирования как профессионального работника
+|Нет никакого опыта</presentation>
+        <typ>multichoice</typ>
+        <hasvalue>1</hasvalue>
+        <position>1</position>
+        <required>1</required>
+        <dependitem>0</dependitem>
+        <dependvalue></dependvalue>
+        <options>h</options>
+      </item>
+      <item id="2">
+        <template>0</template>
+        <name>Какой язык программирования Вы изучали?</name>
+        <label></label>
+        <presentation>c&gt;&gt;&gt;&gt;&gt;С++
+|Python
+|Javascript
+|Visual Basic
+|Pascal
+|C#
+|Другой язык высокого уровня
+|Не знаю языков программирования</presentation>
+        <typ>multichoice</typ>
+        <hasvalue>1</hasvalue>
+        <position>2</position>
+        <required>1</required>
+        <dependitem>0</dependitem>
+        <dependvalue></dependvalue>
+        <options>h</options>
+      </item>
+      <item id="3">
+        <template>0</template>
+        <name>Какие оператора языка Вы знаете?</name>
+        <label></label>
+        <presentation>c&gt;&gt;&gt;&gt;&gt;Развилка (if...then)
+|Цикл с параметром(for....)
+|Цикл с пред и пост условием (while, ..., do ... while)
+|Цикл по коллекции (foreach ..., for (type &amp;item : set) )
+|Выбор (switch ... case)
+|Операторы передачи управления (break, continue)</presentation>
+        <typ>multichoice</typ>
+        <hasvalue>1</hasvalue>
+        <position>3</position>
+        <required>0</required>
+        <dependitem>0</dependitem>
+        <dependvalue></dependvalue>
+        <options>h</options>
+      </item>
+      <item id="4">
+        <template>0</template>
+        <name>С какими типы данных вы работали (не зависимо от языка)?</name>
+        <label></label>
+        <presentation>c&gt;&gt;&gt;&gt;&gt;Символы
+|Строки
+|Булевы
+|Целые числа
+|Действительные числа
+|Статический массив
+|Динамический массив
+|Пользовательский тип
+|Потоки ввода-вывода</presentation>
+        <typ>multichoice</typ>
+        <hasvalue>1</hasvalue>
+        <position>4</position>
+        <required>0</required>
+        <dependitem>0</dependitem>
+        <dependvalue></dependvalue>
+        <options>h</options>
+      </item>
+      <item id="5">
+        <template>0</template>
+        <name>С какими типы данных вы работали на языке С++ или С?</name>
+        <label></label>
+        <presentation>c&gt;&gt;&gt;&gt;&gt;Символы
+|Строки
+|Булевы
+|Целые числа
+|Действительные числа
+|Статический массив
+|Динамический массив
+|Пользовательский тип
+|Потоки ввода-вывода</presentation>
+        <typ>multichoice</typ>
+        <hasvalue>1</hasvalue>
+        <position>5</position>
+        <required>0</required>
+        <dependitem>0</dependitem>
+        <dependvalue></dependvalue>
+        <options>h</options>
+      </item>
+      <item id="6">
+        <template>0</template>
+        <name>Умеете ли Вы создавать и использовать  функции?</name>
+        <label></label>
+        <presentation>c&gt;&gt;&gt;&gt;&gt;Создавал функции в других языках программирования
+|Создавал функции в С или С++
+|Использовал, но не создавал функции
+|Не знаю, что такое функции в программировании</presentation>
+        <typ>multichoice</typ>
+        <hasvalue>1</hasvalue>
+        <position>6</position>
+        <required>0</required>
+        <dependitem>0</dependitem>
+        <dependvalue></dependvalue>
+        <options>h</options>
+      </item>
+      <item id="7">
+        <template>0</template>
+        <name>С каким средствами поиска и представления информации вы знакомы?</name>
+        <label></label>
+        <presentation>c&gt;&gt;&gt;&gt;&gt;Печатные материалы (книги, учебные пособия)
+|Электронные материалы (форматы файлов pdf, djvu)
+|Поисковые системы (Yandex, Google,...)
+|Видео лекции и руководства (Youtube, ...)
+|Языковые виртуальные ассистенты (ChatGPT, Bard, ...)
+|Массовый открытый онлайн-курс (stepik.org, ...)
+|Электронное обучение ИРНИТУ (https://el.istu.edu/)</presentation>
+        <typ>multichoice</typ>
+        <hasvalue>1</hasvalue>
+        <position>7</position>
+        <required>0</required>
+        <dependitem>0</dependitem>
+        <dependvalue></dependvalue>
+        <options>h</options>
+      </item>
+      <item id="8">
+        <template>0</template>
+        <name>Осознаёте ли Вы, что работы по дисциплине "Программирование" предполагает самостоятельную работу по поиску информации, необходимую для выполнения заданий?</name>
+        <label></label>
+        <presentation>r&gt;&gt;&gt;&gt;&gt;Да
+|Нет</presentation>
+        <typ>multichoice</typ>
+        <hasvalue>1</hasvalue>
+        <position>8</position>
+        <required>1</required>
+        <dependitem>0</dependitem>
+        <dependvalue></dependvalue>
+        <options></options>
+      </item>
+      <item id="9">
+        <template>0</template>
+        <name>Какие средства разработки Вы использовали?</name>
+        <label></label>
+        <presentation>c&gt;&gt;&gt;&gt;&gt;Visual Studio
+|VS Code
+|IDE от JetBrains (CLion, ...)
+|IDE от Embarcadero Technologies (С++ Builder,...)
+|Repl
+|Веб-страницы (onlinegdb.com, programiz.com, ...)
+|Другие средства
+|Не использовал никаких</presentation>
+        <typ>multichoice</typ>
+        <hasvalue>1</hasvalue>
+        <position>9</position>
+        <required>0</required>
+        <dependitem>0</dependitem>
+        <dependvalue></dependvalue>
+        <options>h</options>
+      </item>
+      <item id="10">
+        <template>0</template>
+        <name>Какие средства редактирования информации Вы использовали?</name>
+        <label></label>
+        <presentation>c&gt;&gt;&gt;&gt;&gt;Редактор текстовых документов (Word, ...)
+|Редактор блок-схем (Word, draw.io, ...)
+|Редактор презентацией (Power Point, ...)
+|Простые редакторы (paint, notepad/блокнот, ...)
+|Не использовал</presentation>
+        <typ>multichoice</typ>
+        <hasvalue>1</hasvalue>
+        <position>10</position>
+        <required>0</required>
+        <dependitem>0</dependitem>
+        <dependvalue></dependvalue>
+        <options>h</options>
+      </item>
+    </items>
+    <completeds>
+    </completeds>
+  </feedback>
+</activity>
