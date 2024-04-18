@@ -30,9 +30,9 @@
     <theme></theme>
     <timezone>Asia/Irkutsk</timezone>
     <firstaccess>1705153684</firstaccess>
-    <lastaccess>1712942924</lastaccess>
-    <lastlogin>1710250718</lastlogin>
-    <currentlogin>1712923385</currentlogin>
+    <lastaccess>1713448513</lastaccess>
+    <lastlogin>1713280166</lastlogin>
+    <currentlogin>1713435207</currentlogin>
     <mailformat>1</mailformat>
     <maildigest>0</maildigest>
     <maildisplay>0</maildisplay>
@@ -86,10 +86,6 @@
         <name>userselector_autoselectunique</name>
         <value>0</value>
       </preference>
-      <preference id="5">
-        <name>login_failed_count_since_success</name>
-        <value>0</value>
-      </preference>
       <preference id="27">
         <name>drawer-open-block</name>
         <value>0</value>
@@ -106,9 +102,13 @@
         <name>filepicker_recentlicense</name>
         <value>unknown</value>
       </preference>
+      <preference id="5">
+        <name>login_failed_count_since_success</name>
+        <value>0</value>
+      </preference>
       <preference id="28">
         <name>coursesectionspreferences_2</name>
-        <value>{"contentcollapsed":[],"indexcollapsed":[2]}</value>
+        <value>{"contentcollapsed":[7,3,4,5],"indexcollapsed":[2]}</value>
       </preference>
     </preferences>
     <roles>

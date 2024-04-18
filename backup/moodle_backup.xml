@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <moodle_backup>
   <information>
-    <name>backup-moodle2-course-2-программирование-20240413-0129.mbz</name>
+    <name>backup-moodle2-course-2-программирование-20240418-2155.mbz</name>
     <moodle_version>2023100900.07</moodle_version>
     <moodle_release>4.3+ (Build: 20231124)</moodle_release>
     <backup_version>2023100900</backup_version>
     <backup_release>4.3</backup_release>
-    <backup_date>1712942973</backup_date>
+    <backup_date>1713448534</backup_date>
     <mnet_remoteusers>0</mnet_remoteusers>
     <include_files>1</include_files>
     <include_file_references_to_external_content>0</include_file_references_to_external_content>
@@ -21,7 +21,7 @@
     <original_course_contextid>11</original_course_contextid>
     <original_system_contextid>1</original_system_contextid>
     <details>
-      <detail backup_id="8f686df3910a03957736178058c0fa86">
+      <detail backup_id="01d90653b90f75a116cc7a65a1e95f77">
         <type>course</type>
         <format>moodle2</format>
         <interactive>1</interactive>
@@ -152,7 +152,7 @@
       <setting>
         <level>root</level>
         <name>filename</name>
-        <value>backup-moodle2-course-2-программирование-20240413-0129.mbz</value>
+        <value>backup-moodle2-course-2-программирование-20240418-2155.mbz</value>
       </setting>
       <setting>
         <level>root</level>
