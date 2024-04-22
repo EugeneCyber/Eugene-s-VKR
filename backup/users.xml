@@ -30,9 +30,9 @@
     <theme></theme>
     <timezone>Asia/Irkutsk</timezone>
     <firstaccess>1705153684</firstaccess>
-    <lastaccess>1713448513</lastaccess>
-    <lastlogin>1713280166</lastlogin>
-    <currentlogin>1713435207</currentlogin>
+    <lastaccess>1713810563</lastaccess>
+    <lastlogin>1713638231</lastlogin>
+    <currentlogin>1713810253</currentlogin>
     <mailformat>1</mailformat>
     <maildigest>0</maildigest>
     <maildisplay>0</maildisplay>
@@ -109,6 +109,10 @@
       <preference id="28">
         <name>coursesectionspreferences_2</name>
         <value>{"contentcollapsed":[7,3,4,5],"indexcollapsed":[2]}</value>
+      </preference>
+      <preference id="34">
+        <name>forum_displaymode</name>
+        <value>3</value>
       </preference>
     </preferences>
     <roles>

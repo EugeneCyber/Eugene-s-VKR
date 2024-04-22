@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="3" moduleid="25" modulename="book" contextid="44">
+  <book id="3">
+    <name>Книга 123</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <numbering>1</numbering>
+    <navstyle>1</navstyle>
+    <customtitles>0</customtitles>
+    <timecreated>1713810425</timecreated>
+    <timemodified>1713810425</timemodified>
+    <chapters>
+      <chapter id="3">
+        <pagenum>1</pagenum>
+        <subchapter>0</subchapter>
+        <title>Глава 1</title>
+        <content>&lt;p&gt;Содерживмое первой главы&lt;br&gt;123&lt;/p&gt;
+&lt;p&gt;456&lt;/p&gt;
+&lt;p&gt;И еще что-то&lt;/p&gt;</content>
+        <contentformat>1</contentformat>
+        <hidden>0</hidden>
+        <timemodified>1713810473</timemodified>
+        <importsrc></importsrc>
+      </chapter>
+    </chapters>
+    <chaptertags>
+    </chaptertags>
+  </book>
+</activity>

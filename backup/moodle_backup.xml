@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <moodle_backup>
   <information>
-    <name>backup-moodle2-course-2-программирование-20240418-2155.mbz</name>
+    <name>backup-moodle2-course-2-программирование-20240423-0230.mbz</name>
     <moodle_version>2023100900.07</moodle_version>
     <moodle_release>4.3+ (Build: 20231124)</moodle_release>
     <backup_version>2023100900</backup_version>
     <backup_release>4.3</backup_release>
-    <backup_date>1713448534</backup_date>
+    <backup_date>1713810616</backup_date>
     <mnet_remoteusers>0</mnet_remoteusers>
     <include_files>1</include_files>
     <include_file_references_to_external_content>0</include_file_references_to_external_content>
@@ -21,7 +21,7 @@
     <original_course_contextid>11</original_course_contextid>
     <original_system_contextid>1</original_system_contextid>
     <details>
-      <detail backup_id="01d90653b90f75a116cc7a65a1e95f77">
+      <detail backup_id="a6871c324e4e91a3b4dac90636b588be">
         <type>course</type>
         <format>moodle2</format>
         <interactive>1</interactive>
@@ -38,6 +38,13 @@
           <modulename>forum</modulename>
           <title>Объявления</title>
           <directory>activities/forum_1</directory>
+        </activity>
+        <activity>
+          <moduleid>25</moduleid>
+          <sectionid>1</sectionid>
+          <modulename>book</modulename>
+          <title>Книга 123</title>
+          <directory>activities/book_25</directory>
         </activity>
         <activity>
           <moduleid>3</moduleid>
@@ -152,7 +159,7 @@
       <setting>
         <level>root</level>
         <name>filename</name>
-        <value>backup-moodle2-course-2-программирование-20240418-2155.mbz</value>
+        <value>backup-moodle2-course-2-программирование-20240423-0230.mbz</value>
       </setting>
       <setting>
         <level>root</level>
@@ -281,6 +288,18 @@
         <level>activity</level>
         <activity>forum_1</activity>
         <name>forum_1_userinfo</name>
+        <value>1</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>book_25</activity>
+        <name>book_25_included</name>
+        <value>1</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>book_25</activity>
+        <name>book_25_userinfo</name>
         <value>1</value>
       </setting>
       <setting>

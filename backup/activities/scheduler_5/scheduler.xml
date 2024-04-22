@@ -29,14 +29,14 @@
     <timemodified>1706330530</timemodified>
     <slots>
       <slot id="1">
-        <starttime>1713448800</starttime>
+        <starttime>1713535200</starttime>
         <duration>15</duration>
         <teacherid>2</teacherid>
         <appointmentlocation></appointmentlocation>
-        <timemodified>1713448414</timemodified>
-        <notes></notes>
+        <timemodified>1713452298</timemodified>
+        <notes>&lt;p&gt;Примечание123&lt;/p&gt;</notes>
         <notesformat>1</notesformat>
-        <exclusivity>1</exclusivity>
+        <exclusivity>0</exclusivity>
         <emaildate>0</emaildate>
         <hideuntil>1713369600</hideuntil>
         <appointments>
