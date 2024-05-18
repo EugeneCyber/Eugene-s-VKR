@@ -1,0 +1,263 @@
+ccccccreate = """ -- edu.file_type определение
+
+-- Drop table
+
+-- DROP TABLE file_type;
+
+CREATE TABLE file_type (
+	id serial4 NOT NULL,
+	"name" varchar NULL,
+	"extension" varchar NULL,
+	CONSTRAINT file_type_pk PRIMARY KEY (id)
+);
+
+
+-- edu.lms определение
+
+-- Drop table
+
+-- DROP TABLE lms;
+
+CREATE TABLE lms (
+	id serial4 NOT NULL,
+	"name" varchar NOT NULL,
+	CONSTRAINT lms_pk PRIMARY KEY (id)
+);
+
+
+-- edu.lms_resource_type определение
+
+-- Drop table
+
+-- DROP TABLE lms_resource_type;
+
+CREATE TABLE lms_resource_type (
+	id serial4 NOT NULL,
+	"name" varchar NOT NULL,
+	CONSTRAINT lms_resource_type_pk PRIMARY KEY (id)
+);
+
+
+-- edu.presentation_type определение
+
+-- Drop table
+
+-- DROP TABLE presentation_type;
+
+CREATE TABLE presentation_type (
+	id bigserial NOT NULL,
+	"name" varchar NOT NULL,
+	CONSTRAINT presentation_pk PRIMARY KEY (id)
+);
+
+
+-- edu.resource определение
+
+-- Drop table
+
+-- DROP TABLE resource;
+
+CREATE TABLE resource (
+	id bigserial NOT NULL,
+	url varchar NULL,
+	"name" varchar NULL,
+	description text NULL,
+	tags json NULL,
+	CONSTRAINT edu_resource_pk PRIMARY KEY (id)
+);
+
+
+-- edu.edu_announcment определение
+
+-- Drop table
+
+-- DROP TABLE edu_announcment;
+
+CREATE TABLE edu_announcment (
+	id bigserial NOT NULL,
+	"name" varchar NULL,
+	resource_id int8 NOT NULL,
+	CONSTRAINT edu_announcment_pk PRIMARY KEY (id),
+	CONSTRAINT edu_announcment_fk FOREIGN KEY (resource_id) REFERENCES resource(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+-- edu.edu_lab_report определение
+
+-- Drop table
+
+-- DROP TABLE edu_lab_report;
+
+CREATE TABLE edu_lab_report (
+	id bigserial NOT NULL,
+	resource_id int8 NOT NULL,
+	CONSTRAINT edu_lab_report_pk PRIMARY KEY (id),
+	CONSTRAINT edu_lab_report_fk FOREIGN KEY (resource_id) REFERENCES resource(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+-- edu.edu_resource_lecture определение
+
+-- Drop table
+
+-- DROP TABLE edu_resource_lecture;
+
+CREATE TABLE edu_resource_lecture (
+	id bigserial NOT NULL,
+	"name" text NULL,
+	resource_id int8 NOT NULL,
+	summary text NULL,
+	CONSTRAINT edu_resource_lecture_pk PRIMARY KEY (id),
+	CONSTRAINT edu_resource_lecture_fk FOREIGN KEY (resource_id) REFERENCES resource(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+-- edu.edu_term определение
+
+-- Drop table
+
+-- DROP TABLE edu_term;
+
+CREATE TABLE edu_term (
+	id bigserial NOT NULL,
+	"name" varchar NULL,
+	"text" text NULL,
+	resource_id int8 NOT NULL,
+	CONSTRAINT edu_term_pk PRIMARY KEY (id),
+	CONSTRAINT edu_term_fk FOREIGN KEY (resource_id) REFERENCES resource(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+-- edu.edu_theme определение
+
+-- Drop table
+
+-- DROP TABLE edu_theme;
+
+CREATE TABLE edu_theme (
+	id bigserial NOT NULL,
+	resource_id int8 NOT NULL,
+	"name" text NULL,
+	CONSTRAINT edu_theme_pk PRIMARY KEY (id),
+	CONSTRAINT edu_theme_fk FOREIGN KEY (resource_id) REFERENCES resource(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+-- edu.file_resource_description определение
+
+-- Drop table
+
+-- DROP TABLE file_resource_description;
+
+CREATE TABLE file_resource_description (
+	id bigserial NOT NULL,
+	type_id int4 NULL,
+	"name" varchar NOT NULL,
+	resource_id int8 NULL,
+	CONSTRAINT file_resource_description_pk PRIMARY KEY (id),
+	CONSTRAINT file_resource_description_fk FOREIGN KEY (type_id) REFERENCES file_type(id) ON DELETE RESTRICT ON UPDATE CASCADE,
+	CONSTRAINT file_resource_description_fk_2 FOREIGN KEY (resource_id) REFERENCES resource(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+-- edu.html_resource определение
+
+-- Drop table
+
+-- DROP TABLE html_resource;
+
+CREATE TABLE html_resource (
+	id bigserial NOT NULL,
+	html text NULL,
+	resource_id int8 NOT NULL,
+	CONSTRAINT html_resource_fk FOREIGN KEY (resource_id) REFERENCES resource(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+-- edu.lms_resource определение
+
+-- Drop table
+
+-- DROP TABLE lms_resource;
+
+CREATE TABLE lms_resource (
+	id bigserial NOT NULL,
+	access_rights xml NULL,
+	module_config xml NULL,
+	view_config xml NULL,
+	resource_id int8 NOT NULL,
+	CONSTRAINT lms_resource_pk PRIMARY KEY (id),
+	CONSTRAINT lms_resource_fk FOREIGN KEY (resource_id) REFERENCES resource(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+-- edu.original_lms_resource определение
+
+-- Drop table
+
+-- DROP TABLE original_lms_resource;
+
+CREATE TABLE original_lms_resource (
+	id bigserial NOT NULL,
+	type_id int4 NULL,
+	platform_id int4 NOT NULL,
+	"content" text NULL,
+	resource_id int8 NULL,
+	CONSTRAINT original_lms_pk PRIMARY KEY (id),
+	CONSTRAINT original_lms_resource_fk FOREIGN KEY (platform_id) REFERENCES lms(id) ON DELETE RESTRICT ON UPDATE CASCADE,
+	CONSTRAINT original_lms_resource_fk_1 FOREIGN KEY (type_id) REFERENCES lms_resource_type(id) ON DELETE RESTRICT ON UPDATE CASCADE,
+	CONSTRAINT original_lms_resource_fk_2 FOREIGN KEY (resource_id) REFERENCES resource(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+-- edu.resource_relations определение
+
+-- Drop table
+
+-- DROP TABLE resource_relations;
+
+CREATE TABLE resource_relations (
+	id bigserial NOT NULL,
+	resource_one_id int8 NOT NULL,
+	resource_two_id int8 NOT NULL,
+	CONSTRAINT resource_relations_pk PRIMARY KEY (id),
+	CONSTRAINT resource_relations_fk FOREIGN KEY (resource_one_id) REFERENCES resource(id) ON DELETE RESTRICT ON UPDATE CASCADE,
+	CONSTRAINT resource_relations_fk_1 FOREIGN KEY (resource_two_id) REFERENCES resource(id) ON DELETE RESTRICT ON UPDATE CASCADE
+);
+
+
+-- edu.video_resource_description определение
+
+-- Drop table
+
+-- DROP TABLE video_resource_description;
+
+CREATE TABLE video_resource_description (
+	id bigserial NOT NULL,
+	"name" varchar NULL,
+	url varchar NULL,
+	duration int8 NULL,
+	resource_id int8 NULL,
+	author varchar NULL,
+	"start" int8 NULL,
+	"end" int8 NULL,
+	CONSTRAINT video_resource_pk PRIMARY KEY (id),
+	CONSTRAINT video_resource_fk FOREIGN KEY (resource_id) REFERENCES resource(id) ON DELETE RESTRICT ON UPDATE CASCADE
+); """
+
+ddddddrop = """ DROP TABLE file_type CASCADE;
+DROP TABLE lms CASCADE;
+DROP TABLE lms_resource_type CASCADE;
+DROP TABLE presentation_type CASCADE;
+DROP TABLE resource CASCADE;
+DROP TABLE edu_announcment CASCADE;
+DROP TABLE edu_lab_report CASCADE;
+DROP TABLE edu_resource_lecture CASCADE;
+DROP TABLE edu_term CASCADE;
+DROP TABLE edu_theme;
+DROP TABLE file_resource_description CASCADE;
+DROP TABLE html_resource CASCADE;
+DROP TABLE lms_resource CASCADE;
+DROP TABLE original_lms_resource CASCADE;
+DROP TABLE resource_relations CASCADE;
+DROP TABLE video_resource_description CASCADE; """
