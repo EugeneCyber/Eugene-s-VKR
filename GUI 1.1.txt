@@ -1,0 +1,72 @@
+import tkinter as tk
+from tkinter import filedialog
+
+# инициализация глобальных переменных
+current_element_index = 0
+elements = all_files_read()
+
+# функция для обновления текста поля elements_text
+def update_elements_text():
+    elements_text.config(state=tk.NORMAL)
+    elements_text.delete("1.0", tk.END)
+    elements_text.insert(tk.END, elements[current_element_index])
+    elements_text.config(state=tk.DISABLED)
+
+# функции для переключения между элементами массива
+def prev_element():
+    global current_element_index
+    if current_element_index > 0:
+        current_element_index -= 1
+    update_elements_text()
+
+def next_element():
+    global current_element_index
+    if current_element_index < len(elements)-1:
+        current_element_index += 1
+    update_elements_text()
+
+# функция для выбора файла
+def choose_file():
+    filepath = filedialog.askopenfilename()
+    file_path_entry.delete(0, tk.END)
+    file_path_entry.insert(0, filepath)
+
+# создание главного окна
+root = tk.Tk()
+root.title("Простой интерфейс")
+
+# создание вкладок
+tab_control = ttk.Notebook(root)
+import_tab = ttk.Frame(tab_control)
+add_tab = ttk.Frame(tab_control)
+delete_tab = ttk.Frame(tab_control)
+
+# вкладка Импорт
+file_label = tk.Label(import_tab, text="Выберите файл:")
+file_label.pack()
+
+file_path_entry = tk.Entry(import_tab, width=50)
+file_path_entry.pack()
+
+choose_file_button = tk.Button(import_tab, text="Выбрать файл", command=choose_file)
+choose_file_button.pack()
+
+elements_text = tk.Text(import_tab, height=30, width=150)
+elements_text.pack()
+elements_text.insert(tk.END, elements[current_element_index])
+elements_text.config(state=tk.DISABLED)
+
+prev_button = tk.Button(import_tab, text="Предыдущий", command=prev_element)
+prev_button.pack(side=tk.LEFT)
+
+next_button = tk.Button(import_tab, text="Следующий", command=next_element)
+next_button.pack(side=tk.RIGHT)
+
+tab_control.add(import_tab, text="Импорт")
+tab_control.add(add_tab, text="Добавление")
+tab_control.add(delete_tab, text="Удаление")
+
+tab_control.pack(expand=1, fill='both')
+
+root.geometry("720x720")
+root.mainloop()
