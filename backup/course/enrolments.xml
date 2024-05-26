@@ -51,6 +51,14 @@
           <modifierid>2</modifierid>
           <timemodified>1705157488</timemodified>
         </enrolment>
+        <enrolment id="3">
+          <status>0</status>
+          <userid>5</userid>
+          <timestart>1713934999</timestart>
+          <timeend>0</timeend>
+          <modifierid>2</modifierid>
+          <timemodified>1713935052</timemodified>
+        </enrolment>
       </user_enrolments>
     </enrol>
     <enrol id="2">

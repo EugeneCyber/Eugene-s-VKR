@@ -30,5 +30,14 @@
       <itemid>0</itemid>
       <sortorder>0</sortorder>
     </assignment>
+    <assignment id="6">
+      <roleid>1</roleid>
+      <userid>5</userid>
+      <timemodified>1713935052</timemodified>
+      <modifierid>2</modifierid>
+      <component></component>
+      <itemid>0</itemid>
+      <sortorder>0</sortorder>
+    </assignment>
   </role_assignments>
 </roles>

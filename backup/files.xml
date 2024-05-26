@@ -352,4 +352,48 @@
     <repositoryid>$@NULL@$</repositoryid>
     <reference>$@NULL@$</reference>
   </file>
+  <file id="134">
+    <contenthash>9b4eb2e4a0e0559e9ab618c2a2d6b1924f955457</contenthash>
+    <contextid>46</contextid>
+    <component>mod_glossary</component>
+    <filearea>entry</filearea>
+    <itemid>11</itemid>
+    <filepath>/</filepath>
+    <filename>image.png</filename>
+    <userid>3</userid>
+    <filesize>29178</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1716538025</timecreated>
+    <timemodified>1716538025</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="135">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>46</contextid>
+    <component>mod_glossary</component>
+    <filearea>entry</filearea>
+    <itemid>11</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>3</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1716538025</timecreated>
+    <timemodified>1716538025</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
 </files>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <moodle_backup>
   <information>
-    <name>backup-moodle2-course-2-программирование-20240423-0230.mbz</name>
+    <name>backup-moodle2-course-2-программирование-20240526-1024.mbz</name>
     <moodle_version>2023100900.07</moodle_version>
     <moodle_release>4.3+ (Build: 20231124)</moodle_release>
     <backup_version>2023100900</backup_version>
     <backup_release>4.3</backup_release>
-    <backup_date>1713810616</backup_date>
+    <backup_date>1716690261</backup_date>
     <mnet_remoteusers>0</mnet_remoteusers>
     <include_files>1</include_files>
     <include_file_references_to_external_content>0</include_file_references_to_external_content>
@@ -21,7 +21,7 @@
     <original_course_contextid>11</original_course_contextid>
     <original_system_contextid>1</original_system_contextid>
     <details>
-      <detail backup_id="a6871c324e4e91a3b4dac90636b588be">
+      <detail backup_id="9766bcd7221776ec1c7db9cb5eeb549e">
         <type>course</type>
         <format>moodle2</format>
         <interactive>1</interactive>
@@ -116,6 +116,13 @@
           <title>Тест по основам программирования</title>
           <directory>activities/quiz_12</directory>
         </activity>
+        <activity>
+          <moduleid>26</moduleid>
+          <sectionid>2</sectionid>
+          <modulename>glossary</modulename>
+          <title>Терминологический словарь</title>
+          <directory>activities/glossary_26</directory>
+        </activity>
       </activities>
       <sections>
         <section>
@@ -159,7 +166,7 @@
       <setting>
         <level>root</level>
         <name>filename</name>
-        <value>backup-moodle2-course-2-программирование-20240423-0230.mbz</value>
+        <value>backup-moodle2-course-2-программирование-20240526-1024.mbz</value>
       </setting>
       <setting>
         <level>root</level>
@@ -432,6 +439,18 @@
         <level>activity</level>
         <activity>quiz_12</activity>
         <name>quiz_12_userinfo</name>
+        <value>1</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>glossary_26</activity>
+        <name>glossary_26_included</name>
+        <value>1</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>glossary_26</activity>
+        <name>glossary_26_userinfo</name>
         <value>1</value>
       </setting>
       <setting>

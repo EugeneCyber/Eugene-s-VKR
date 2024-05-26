@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1" moduleid="26" modulename="glossary" contextid="46">
+  <glossary id="1">
+    <name>Терминологический словарь</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <allowduplicatedentries>0</allowduplicatedentries>
+    <displayformat>dictionary</displayformat>
+    <mainglossary>0</mainglossary>
+    <showspecial>1</showspecial>
+    <showalphabet>1</showalphabet>
+    <showall>1</showall>
+    <allowcomments>0</allowcomments>
+    <allowprintview>1</allowprintview>
+    <usedynalink>1</usedynalink>
+    <defaultapproval>1</defaultapproval>
+    <globalglossary>0</globalglossary>
+    <entbypage>10</entbypage>
+    <editalways>0</editalways>
+    <rsstype>0</rsstype>
+    <rssarticles>0</rssarticles>
+    <assessed>0</assessed>
+    <assesstimestart>0</assesstimestart>
+    <assesstimefinish>0</assesstimefinish>
+    <scale>100</scale>
+    <timecreated>1716537829</timecreated>
+    <timemodified>1716537829</timemodified>
+    <completionentries>0</completionentries>
+    <entries>
+      <entry id="1">
+        <userid>3</userid>
+        <concept>Формула программы</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;По А.Б. Столбову&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;div&gt;&lt;strong&gt;Программа = Данные + Алгоритм +&amp;nbsp; Язык + Исполнитель&lt;/strong&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;strong&gt;Исполнитель = Процессор + Память + Устройства ввода/вывода&lt;/strong&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;strong&gt;Процессор&amp;nbsp; = Вычисление + Управление&lt;/strong&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="2">
+        <userid>3</userid>
+        <concept>Алгоритм</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;div&gt;Алгоритм – это описание последовательности действий,
+необходимых для решения задачи&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Массовость &lt;/strong&gt;– алгоритм должен описывать не одну
+конкретную задачу, а группу подобных задач&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Например,
+не решение одного конкретного квадратного уравнения,&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;а
+любого квадратного уравнения&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;strong&gt;Детерминированность
+&lt;/strong&gt;-&amp;nbsp;
+алгоритм должен всегда давать один и тот же результат при одних исходных
+данных&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Результативность &lt;/strong&gt;-&amp;nbsp;
+алгоритм должен давать какой-то результат для любого варианта исходных
+данных&lt;br&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Например,
+если решается квадратное уравнение, то должны быть предусмотрены случаи&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Существует
+два различных действительных&amp;nbsp; корня&lt;/li&gt;&lt;li&gt;&lt;div&gt;Существует
+два равных действительных&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div&gt;&lt;div&gt;Нет
+действительных корней&lt;/div&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div&gt;&lt;div&gt;Уравнение
+вырождено &lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+          <alias id="1">
+            <alias_text>Алгоритм, свойства алгоритма</alias_text>
+          </alias>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="3">
+        <userid>3</userid>
+        <concept>Тип данных</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;КРАТКО&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;u&gt;Тип
+переменной определяет&lt;/u&gt;:&lt;/p&gt;&lt;div&gt;-
+диапазон возможных значений;&lt;/div&gt;&lt;div&gt;- способ
+хранения в памяти;&lt;/div&gt;&lt;div&gt;-
+допустимые операции.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;ПОДРОБНО&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;u&gt;Тип
+переменной определяет&lt;/u&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;диапазон изменения значения,
+задавая
+размер
+ее
+внутреннего
+представления;&lt;/li&gt;&lt;li&gt;множество операций,
+которые
+могут
+выполняться
+над переменной&lt;/li&gt;&lt;li&gt;способ хранения данных&lt;/li&gt;&lt;ul&gt;&lt;li&gt;требуемое
+для
+переменной
+количество памяти
+при
+ее
+начальном
+распределении&lt;/li&gt;&lt;li&gt;интерпретацию двоичного кода значений
+при
+последующих
+обращениях
+к переменным.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;Кроме
+того,
+тип
+используется
+для
+контроля
+типов
+с целью
+обнаружения
+возможных
+случаев
+недопустимого
+присваивания.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;В С++ стандартно
+определено
+большое
+количество
+типов,
+которые
+программист
+может
+использовать
+без
+предварительного
+описания.&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="4">
+        <userid>3</userid>
+        <concept>Выражение</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;div&gt;&lt;strong&gt;&lt;span&gt;Выражение&lt;/span&gt;&lt;/strong&gt;– это синтаксическая единица языка,
+определяющая способ вычисления некоторого значения. Выражения состоят из &lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;операндов, &lt;/li&gt;&lt;li&gt;знаков
+операций, &lt;/li&gt;&lt;li&gt;скобок. &lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;Каждый &lt;strong&gt;операнд &lt;/strong&gt;является в свою очередь выражением или
+одним из его частных случаев&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;константой,&lt;/li&gt;&lt;li&gt;переменной,&lt;/li&gt;&lt;li&gt;функций&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;div&gt;&lt;strong&gt;Операция &lt;/strong&gt;- это действие, производимое над
+операндами&lt;/div&gt;&lt;div&gt;&lt;strong&gt;Знак
+операции&lt;/strong&gt;&amp;nbsp;- предопределённый символ или
+группа символов, предписывающие выполнить некоторую&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Значение выражения зависит от&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;ul&gt;&lt;li&gt;расположения
+знаков операций
+&lt;/li&gt;&lt;li&gt;круглых скобок в выражении,&lt;/li&gt;&lt;li&gt;от приоритета выполнения операций&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="5">
+        <userid>3</userid>
+        <concept>Интерфейс и реализация функции</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;Каждая функция имеет свой интерфейс и
+реализацию. &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &lt;strong&gt;Интерфейс
+функции&lt;/strong&gt;&amp;nbsp;&amp;nbsp;
+–&amp;nbsp;&amp;nbsp; заголовок&amp;nbsp;&amp;nbsp; функции,&amp;nbsp;
+в котором указывается название функции,&amp;nbsp;
+список ее параметров и тип возвращаемого значения.&lt;/p&gt;&lt;p&gt;&amp;nbsp; &lt;strong&gt;Реализация
+функции&amp;nbsp;&lt;/strong&gt;&amp;nbsp; &amp;nbsp;–&amp;nbsp;&amp;nbsp;&amp;nbsp;
+тело&amp;nbsp;&amp;nbsp;&amp;nbsp; функции, содержащее
+внутренние (локальные) данные функции и&amp;nbsp;
+программный&amp;nbsp; код,&amp;nbsp; выполняющий действия&amp;nbsp; согласно
+переданным в функцию параметрам и возвращающий
+значение, соответствующего интерфейсу функции типа. &lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="29">
+        <userid>3</userid>
+        <concept>Аллокатор</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;Аллокатор&amp;nbsp;&lt;/strong&gt;(распределитель памяти) — это часть программы, которая запрашивает память большими кусками напрямую у ОС через системные вызовы, а затем предоставляет память частями по мере необходимости&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="30">
+        <userid>3</userid>
+        <concept>Сборка мусора</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;Сборка мусора&lt;/strong&gt;&amp;nbsp;(garbage collection) &amp;nbsp;— одна из форм автоматического управления&amp;nbsp;памятью.&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="6">
+        <userid>3</userid>
+        <concept>Алгоритм передачи параметров в функцию</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Вычисляются
+значения
+выражений,
+стоящие
+на
+месте
+фактических
+параметров&lt;/li&gt;&lt;li&gt;В
+стеке
+выделяется
+память&amp;nbsp; под формальные параметры функции;&lt;/li&gt;&lt;li&gt;Каждому формальному параметру присваивается значение фактического параметра, при этом проверяются соответствия типов и при необходимости выполняются их преобразования.&lt;/li&gt;&lt;li&gt;В стек заносятся копии значений
+аргументов, и операторы функции работают с этими копиями. Доступа к исходным
+значениям параметров у функции нет, а, следовательно, нет
+и возможности их изменить&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="7">
+        <userid>3</userid>
+        <concept>Регистр процессора</concept>
+        <definition>&lt;p dir="ltr" style="text-align:left;"&gt;&lt;/p&gt;&lt;p&gt;Регистр процессора —
+поле заданной длины во &lt;a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80"&gt;внутрипроцессорной&lt;/a&gt; сверхбыстрой &lt;a href="https://ru.wikipedia.org/wiki/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D1%8C"&gt;оперативной
+памяти&lt;/a&gt; (СОЗУ).
+Используется самим процессором, может быть как доступным, так и недоступным программно.
+Например, при выборке из памяти очередной команды она помещается в &lt;a href="https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80_%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4"&gt;регистр
+команд&lt;/a&gt;,
+обращение к которому программист прописать не может.&lt;/p&gt;&lt;br /&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+          <alias id="2">
+            <alias_text>Регистр процессора</alias_text>
+          </alias>
+          <alias id="3">
+            <alias_text>Регистра процессора</alias_text>
+          </alias>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="8">
+        <userid>3</userid>
+        <concept>Языки низкого уровня</concept>
+        <definition>&lt;p dir="ltr" style="text-align:left;"&gt;Языки программирования, ориентированные на команды процессора и учитывающие его особенности, называются &lt;strong&gt;языками низкого уровня&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+          <alias id="4">
+            <alias_text>языками низкого уровня</alias_text>
+          </alias>
+          <alias id="5">
+            <alias_text>язык низкого уровня</alias_text>
+          </alias>
+          <alias id="6">
+            <alias_text>язык программирования низкого уровня</alias_text>
+          </alias>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="9">
+        <userid>3</userid>
+        <concept>Исключение</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;Исключения&lt;/strong&gt;&amp;nbsp;– э&lt;span&gt;то ошибки, возникающие во время работы программы.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="10">
+        <userid>3</userid>
+        <concept>Словесное описание алгоритма</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span&gt;&lt;strong&gt;Словесное описание алгоритма&amp;nbsp;&lt;/strong&gt;&lt;/span&gt;&lt;em&gt;&amp;nbsp;&lt;/em&gt;- это последовательность пронумерованных шагов, описывающих решение задачи. Шаги могут иметь многоуровневую нумерацию, чтобы показать, что одни шаги являются частью других шагов.&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="11">
+        <userid>3</userid>
+        <concept>Блок-схема</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;strong&gt;Блок-схема решения задачи&lt;/strong&gt;&lt;/span&gt;&lt;em&gt;–&lt;/em&gt;графическое изображение алгоритма в виде
+взаимосвязанных блоков. &lt;/p&gt;&lt;img src="@@PLUGINFILE@@/image.png" alt="" role="presentation"&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="12">
+        <userid>3</userid>
+        <concept>Терминал</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Терминалом&lt;/b&gt;называют программу,
+которая эмулирует поведение "железного"терминала, состоящего из
+клавиатуры и монитора. В простейшем случае — это просто окошко с командной
+строкой внутри. Хорошие терминалы также умеют разделять окно на части, открывать
+новые терминалы во вложенных вкладках (также как в браузере), восстанавливать
+завершённую сессию, создавать профили под разные задачи и многое другое.&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="13">
+        <userid>3</userid>
+        <concept>Командный интерпретатор</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;&lt;a name="_Hlk94984505"&gt;&lt;b&gt;Командный интерпретатор &lt;/b&gt;&lt;/a&gt;&lt;b&gt;–&lt;/b&gt;компьютерная программа, часть операционной системы, обеспечивающая
+базовые возможности управления компьютером посредством интерактивного ввода
+команд через интерфейс командной строки или последовательного исполнения
+пакетных командных файлов. Командный интерпретатор (или командная
+оболочка, или, командный процессор, или shell) запускается внутри
+терминала.&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="14">
+        <userid>3</userid>
+        <concept>Операция сдвига</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;strong&gt;Операция сдвига&amp;nbsp;&lt;/strong&gt;– это одновременное перемещение значений битов операнда на фиксированное количество разрядов влево или вправо.&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Различают три типа сдвига&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Логический&amp;nbsp;&lt;/strong&gt;– освобожденные регистры заполняются нулями.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Арифметический&amp;nbsp;&lt;/strong&gt;– выполняется с учётом знака операнда и зависит от кода числа&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Циклический&amp;nbsp;&lt;/strong&gt;– значения выдвигаемых битов записываются на место освобождаемых.&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="15">
+        <userid>3</userid>
+        <concept>Погрешность операций</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;x&amp;nbsp;—
+приближённое значение некоторой величины&amp;nbsp;x*. &lt;/li&gt;&lt;li&gt;|x&amp;nbsp;–&amp;nbsp;x*|
+– это абсолютная погрешность&amp;nbsp; x&lt;/li&gt;&lt;li&gt;|x&amp;nbsp;–&amp;nbsp;x*|/|x*|
+– это относительная погрешность&amp;nbsp;x,&amp;nbsp;при
+условии&amp;nbsp;x*&amp;nbsp;≠
+0&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="16">
+        <userid>3</userid>
+        <concept>Машинная эпсилон</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Машинная эпсилон –&lt;/strong&gt;&amp;nbsp;наибольшее положительное число&amp;nbsp;ε, такое что,&amp;nbsp;1⊕ε=1, где&amp;nbsp;⊕&amp;nbsp;- машинное сложение&lt;/li&gt;&lt;ul&gt;&lt;li&gt;компьютер не различает числа&amp;nbsp;x&amp;nbsp;и&amp;nbsp;y, если&amp;nbsp;1&amp;lt;x/y&amp;lt;1+ε&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;strong&gt;Машинная эпсилон&amp;nbsp;&lt;/strong&gt;– числовое значение, меньше которого невозможно задавать относительную точность для любого алгоритма, возвращающего&amp;nbsp;вещественные числа, т.е. такое минимальное ε, что 1+ε&amp;gt;1&lt;/li&gt;&lt;ul&gt;&lt;li&gt;компьютер не различает числа&amp;nbsp;x&amp;nbsp;и&amp;nbsp;y, если |x-y|&amp;lt;ε&lt;/li&gt;&lt;li&gt;ε = 2−23 ≈ 1.19e-07 для float в С++&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="17">
+        <userid>3</userid>
+        <concept>Когорта</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;Когорта
+– совокупность представлений&amp;nbsp;&lt;/p&gt;&lt;p&gt;0,01 =(-1)0×1×10-2=(-1)0×10×10-3=(-1)0×0,1×10-1&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="18">
+        <userid>3</userid>
+        <concept>Нормальная форма</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;Нормальная форма, если mantissa&amp;nbsp;\(  \in  \) [0,1)&lt;br&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;0,01 = (-1)0×0,1×10-1 = (-1)0×0,001×102&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="19">
+        <userid>3</userid>
+        <concept>Автоматическая память</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;Автоматическая память&lt;/strong&gt;&amp;nbsp;— это область памяти, резервируемая при запуске программы до вызова главной функции (main) из свободной оперативной памяти и используемый в дальнейшем для размещения локальных данных.&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="20">
+        <userid>3</userid>
+        <concept>Препроцессор</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;strong&gt;Препроцессор&amp;nbsp;&lt;/strong&gt;– программа, осуществляющая обработку&amp;nbsp;&amp;nbsp; текста&amp;nbsp;&amp;nbsp;&amp;nbsp; программы&amp;nbsp;&amp;nbsp; перед&amp;nbsp; ее непосредственной компиляцией. Обработка осуществляется согласно специальным указаниям, называемым директивами препроцессора.&lt;br&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="21">
+        <userid>3</userid>
+        <concept>Директива препроцессора</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;Директива препроцессора&lt;/strong&gt;&amp;nbsp;– это инструкция, которая включает в текст программы файл, содержащий описание множества функций, что позволяет правильно компилировать программу.&lt;br&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;все директивы препроцессора начинаются со знака #&lt;/li&gt;&lt;li&gt;после директивы препроцессора точка с запятой&amp;nbsp;&lt;u&gt;не ставится&lt;/u&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="22">
+        <userid>3</userid>
+        <concept>Макроопределение</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;Макросом&amp;nbsp;&lt;/strong&gt;или макроопределением называется идентификатор, связанный директивой #define с лексемой или последовательностью лексем&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="23">
+        <userid>3</userid>
+        <concept>Функциональная декомпозиция</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;b&gt;Функциональная декомпозиция&lt;/b&gt;&amp;nbsp;– это метод разработки программ, при котором задача разбивается на ряд легко решаемых подзадач, решения которых в совокупном виде дают решение исходной задачи в целом.&amp;nbsp;&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="24">
+        <userid>3</userid>
+        <concept>Функция</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;b&gt;Функция&lt;/b&gt;&amp;nbsp;– это совокупность объявлений и операторов, обычно предназначенная для решения определенной задачи.&amp;nbsp;&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="25">
+        <userid>3</userid>
+        <concept>Рекурсия</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;b&gt;&lt;i&gt;Рекурсия&lt;/i&gt;&lt;/b&gt;&amp;nbsp;(от латинского recursio – возвращение) – это такой способ организации вычислений, при котором процедура или функция в ходе выполнения обращается сама к себе. Рекурсия является одной из фундаментальных концепций в математике и программировании. Рекурсия также может рассматриваться как одна из форм мышления, это мощное средство, позволяющее строить элегантные и выразительные алгоритмы.&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="26">
+        <userid>3</userid>
+        <concept>Статическая память</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;Статическая память&lt;/strong&gt;&amp;nbsp;— это область памяти, выделяемая при запуске программы до вызова главной функции (main) из свободной оперативной памяти для размещения глобальных и статических данных программы.&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="27">
+        <userid>3</userid>
+        <concept>Динамическая память</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;Динамическая память&lt;/strong&gt;&amp;nbsp;— это совокупность блоков памяти, выделяемых из доступной свободной оперативной памяти непосредственно во время выполнения программы под размещение конкретных данных&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="28">
+        <userid>3</userid>
+        <concept>Кадр стека функции</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;Кадр стека функции (stack frame)&amp;nbsp;&lt;/strong&gt;— часть стека, сформированный одним вызовом функции. Механизм передачи аргументов и выделения временной памяти с использованием&amp;nbsp;системного стека&lt;br&gt;&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="31">
+        <userid>3</userid>
+        <concept>Переменная</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;Переменная&amp;nbsp;&lt;/strong&gt;– это именованная область памяти.&lt;br&gt;&lt;/p&gt;&lt;p dir="ltr" style="text-align: left;"&gt;Имя переменной – это ссылка на некоторую область памяти.&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="32">
+        <userid>3</userid>
+        <concept>Область действия идентификатора</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;div&gt;&lt;strong&gt;Область действия&lt;/strong&gt;&amp;nbsp;(ОД) идентификатора (имени) - это часть программы, в которой можно обращаться к данному имени (сфера действия&amp;nbsp;имени в программе)&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="33">
+        <userid>3</userid>
+        <concept>Область видимости</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;Область видимости&amp;nbsp;&lt;/strong&gt;(ОВ) – это часть программы, в которой обращение к имени переменной&amp;nbsp;позволяет обратиться к участку памяти, связанному с данной переменной:&lt;br&gt;&lt;br&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+      <entry id="34">
+        <userid>3</userid>
+        <concept>Отладка программы</concept>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Отладка &lt;/strong&gt;(debug, debugging) – процесс поиска, локализации и исправления ошибок в программе.&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definitionformat>1</definitionformat>
+        <definitiontrust>0</definitiontrust>
+        <attachment></attachment>
+        <timecreated>1716538025</timecreated>
+        <timemodified>1716538025</timemodified>
+        <teacherentry>1</teacherentry>
+        <sourceglossaryid>0</sourceglossaryid>
+        <usedynalink>1</usedynalink>
+        <casesensitive>0</casesensitive>
+        <fullmatch>1</fullmatch>
+        <approved>1</approved>
+        <aliases>
+        </aliases>
+        <ratings>
+        </ratings>
+      </entry>
+    </entries>
+    <entriestags>
+    </entriestags>
+    <categories>
+    </categories>
+  </glossary>
+</activity>
