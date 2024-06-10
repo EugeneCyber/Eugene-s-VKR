@@ -825,12 +825,16 @@
       <entry id="34">
         <userid>3</userid>
         <concept>Отладка программы</concept>
-        <definition>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Отладка &lt;/strong&gt;(debug, debugging) – процесс поиска, локализации и исправления ошибок в программе.&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</definition>
+        <definition>&lt;p dir="ltr" style="text-align: left;"&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Отладка &lt;/strong&gt;(debug, debugging) – процесс поиска, локализации и исправления ошибок в программе.&lt;/p&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=_ZairtpcXTs&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</definition>
         <definitionformat>1</definitionformat>
         <definitiontrust>0</definitiontrust>
         <attachment></attachment>
         <timecreated>1716538025</timecreated>
-        <timemodified>1716538025</timemodified>
+        <timemodified>1718050493</timemodified>
         <teacherentry>1</teacherentry>
         <sourceglossaryid>0</sourceglossaryid>
         <usedynalink>1</usedynalink>

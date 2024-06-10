@@ -11,7 +11,7 @@
     <address></address>
     <city>Иркутск</city>
     <country>RU</country>
-    <lastip>37.113.236.125</lastip>
+    <lastip>37.113.238.113</lastip>
     <picture>0</picture>
     <description>Самый крутой пользователь</description>
     <descriptionformat>1</descriptionformat>
@@ -30,9 +30,9 @@
     <theme></theme>
     <timezone>Asia/Irkutsk</timezone>
     <firstaccess>1705153684</firstaccess>
-    <lastaccess>1716690202</lastaccess>
-    <lastlogin>1716518461</lastlogin>
-    <currentlogin>1716690141</currentlogin>
+    <lastaccess>1718050501</lastaccess>
+    <lastlogin>1717501430</lastlogin>
+    <currentlogin>1718047459</currentlogin>
     <mailformat>1</mailformat>
     <maildigest>0</maildigest>
     <maildisplay>0</maildisplay>
@@ -86,14 +86,6 @@
         <name>userselector_autoselectunique</name>
         <value>0</value>
       </preference>
-      <preference id="27">
-        <name>drawer-open-block</name>
-        <value>0</value>
-      </preference>
-      <preference id="8">
-        <name>drawer-open-index</name>
-        <value>0</value>
-      </preference>
       <preference id="29">
         <name>filepicker_recentrepository</name>
         <value>5</value>
@@ -113,6 +105,14 @@
       <preference id="34">
         <name>forum_displaymode</name>
         <value>3</value>
+      </preference>
+      <preference id="8">
+        <name>drawer-open-index</name>
+        <value>0</value>
+      </preference>
+      <preference id="27">
+        <name>drawer-open-block</name>
+        <value>0</value>
       </preference>
     </preferences>
     <roles>
