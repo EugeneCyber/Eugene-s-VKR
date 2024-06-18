@@ -1,2 +1,2 @@
-# Parser-Moodle
- Parser for LMS Moodle
+# Eugene's VKR
+ Program for Eugene's VKR
