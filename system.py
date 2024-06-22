@@ -2078,7 +2078,8 @@ def add_in_DB_files_description():
             name, extension = os.path.splitext(path)
             name, extension = [os.path.basename(name), extension[1:]]
             resource_id = new_files[index][1]
-            
+
+            insert_file_type(extension, extension)
             insert_file_resource_description(name, extension, resource_id, path)
 
 #add_in_DB_files_description()
@@ -2182,7 +2183,7 @@ def web_interface():
     @app.route('/import')
     def import_page():
         return f'''
-            <button onclick="window.location.href='/show_resources_from_files'">Показать ресурсы из экспортируемого файла</button><br>
+            <button onclick="window.location.href='/show_resources_from_files'">Показать ресурсы из файла резервной копии</button><br>
             <button onclick="window.location.href='/show_resources_from_db'">Показать ресурсы из базы данных</button><br>
             <button onclick="window.location.href='/show_tables_video'">Показать видео-ресурсы</button><br>
             <button onclick="window.location.href='/import_resources'">Импортировать ресурсы</button><br>
